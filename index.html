@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css"/>
+    <title>QCM</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+    <div class="left">
+      <h2 id="question"></h2>
+      <h3 id="subtitle"></h3>
+      <img src="#" id="image">
+    </div>
+    <div class="right">
+      <p id="question_count"></p>
+      <div id="answers">
+
+      </div>
+      <div>
+        <button id="action_button"></button>
+      </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

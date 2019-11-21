@@ -1,0 +1,40 @@
+body{
+    margin-top: 0;
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    background-color: gray;
+}
+
+#logo_designer{
+    background-color: darkgrey;
+    margin-left:  10%;
+    margin-right: 10%;
+    width:  500px;
+    height: 500px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    background-color: bisque
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: chartreuse;
+}
+
+#answers{
+    display: inline-grid;
+}
